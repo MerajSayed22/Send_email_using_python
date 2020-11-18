@@ -1,9 +1,6 @@
 import smtplib
 from email.message import EmailMessage
 
-i= 0
-
-while i < 5:
 
 	email = EmailMessage()
 	email['from'] = 'Meraj Sayed'
@@ -19,4 +16,4 @@ while i < 5:
 		smtp.send_message(email)
 		print ('all done pal')
 
-		i+=1
+
